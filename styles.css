@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+.hero{
+    min-height: 100vh;
+    background: url(../3/img/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    scale: 100%;
+}
+
+.hero .text{
+    position: relative;
+    text-align: center;
+    font-size: 10em;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-shadow: 0 5px 10px #3333;
+    transform: translateY(150px);
+}
+
+.content{
+    position: relative;
+    padding: 20px 9%;
+    padding-bottom: 80px;
+}
+
+.content h3{
+    font-size: 4em;
+    color: #333;
+}
+
+.content p{
+    font-size: 4em;
+    color: #777;
+    padding: 20px 0;
+}
+
+.content::before{
+    content: '';
+    position: absolute;
+    top: -150px; 
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, #fff 70%);
+    height: 150px;
+}
