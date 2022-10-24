@@ -8,7 +8,7 @@
 
 .hero{
     min-height: 100vh;
-    background: url(../3/img/bg.jpg) no-repeat;
+    background: url(img/bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
